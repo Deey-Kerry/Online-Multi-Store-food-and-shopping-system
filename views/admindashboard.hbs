@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set character encoding -->
     <meta charset="UTF-8">
+    <!-- Ensure proper rendering and compatibility with Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Admin dashboard</title>
 </head>
 <body>
+  <!-- Include the navbar template with the loginUser parameter -->
   {{>navbar loginUser=loginUser}}
 
     <section>
@@ -14,12 +19,13 @@
             <div class="">
                 <div class="row">
                     <div class="col-md-3">
-                       <!-- sidebar -->
+                       <!-- Include the sidebar template -->
                        {{>sidebar}}
                     </div>
                     <div class="col-md-9">
                         <div class="adminPanel card">
                             <div class="text-center my-1">
+                                <!-- Title of the dashboard -->
                                 <h4><span class="primary-color">MULTI-STORE VENDORS</span> Dashboard</h4>
                             </div>
 
@@ -27,8 +33,11 @@
                                 <div class="col-md-6">
                                     <div class="card mt-1">
                                         <div class="text-center">
+                                            <!-- Image for Services Delivered -->
                                             <img style="width:130px;height:130px;border-radius:50%" src="/static/image/img/d2.jpg" alt="">
+                                            <!-- Title for Services Delivered -->
                                             <h3 class="my-2 primary-color">Services Delivered</h3>
+                                            <!-- Number of Services Delivered -->
                                             <h2 class="primary-color mb-0 pb-2">4352+</h2>
                                         </div>
                                     </div>
@@ -36,8 +45,11 @@
                                 <div class="col-md-6">
                                     <div class="card mt-1">
                                         <div class="text-center">
+                                            <!-- Image for Our Admin -->
                                             <img style="width:130px;height:130px;border-radius:50%" src="/static/image/img/chef.jpg" alt="">
+                                            <!-- Title for Our Admin -->
                                             <h3 class="my-2 primary-color">Our Admin</h3>
+                                            <!-- Number of Our Admin -->
                                             <h2 class="primary-color mb-0 pb-2">52+</h2>
                                         </div>
                                     </div>
@@ -45,8 +57,11 @@
                                 <div class="col-md-6">
                                     <div class="card mt-1">
                                         <div class="text-center">
+                                            <!-- Image for Available Services -->
                                             <img style="width:130px;height:130px;border-radius:50%" src="/static/image/img/pizza.jpg" alt="">
+                                            <!-- Title for Available Services -->
                                             <h3 class="my-2 primary-color">Available Services</h3>
+                                            <!-- Number of Available Services -->
                                             <h2 class="primary-color mb-0 pb-2">432+</h2>
                                         </div>
                                     </div>
@@ -54,23 +69,22 @@
                                 <div class="col-md-6">
                                     <div class="card mt-1">
                                         <div class="text-center">
+                                            <!-- Image for Fast Delivery -->
                                             <img style="width:130px;height:130px;border-radius:50%" src="/static/image/img/d1.jpg" alt="">
+                                            <!-- Title for Fast Delivery -->
                                             <h3 class="my-2 primary-color">Fast Delivery</h3>
+                                            <!-- Number of Fast Delivery -->
                                             <h2 class="primary-color mb-0 pb-2">42+</h2>
                                         </div>
                                     </div>
                                 </div>
-                                
-
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
 </body>
 </html>
+

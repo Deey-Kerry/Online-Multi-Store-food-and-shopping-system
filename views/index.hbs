@@ -1,28 +1,35 @@
-[200~<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+  <!-- Set character encoding -->
   <meta charset="utf-8">
+  <!-- Set the viewport for responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Title of the webpage -->
   <title>Multi-Store Services</title>
   
 </head>
 
 <body>
+  <!-- Include the navbar template with the loginUser parameter -->
   {{>navbar loginUser=loginUser}}
   
+  <!-- Top Banner Section -->
   <section id="/">
     <div class="container-fluid px-0 top-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-6">
+            <!-- Main heading -->
             <h1>Good Services for everyone</h1>
+            <!-- Subheading -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, provident. Ipsa ipsam nisi ut ducimus
               consectetur molestiae molesti</p>
+            <!-- Buttons for ordering -->
             <div class="mt-4">
               <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
               <button class="white-btn">Order now <i class="fas fa-angle-right ps-3"></i></button>
-
             </div>
           </div>
         </div>
@@ -30,28 +37,33 @@
     </div>
   </section>
 
+  <!-- Counter Section -->
   <section id="counter">
     <section class="counter-section">
       <div class="container">
         <div class="row text-center">
+          <!-- Counter 1 -->
           <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
             <h2>
               <span id="count1">4568</span>+
             </h2>
             <p>SAVINGS</p>
           </div>
+          <!-- Counter 2 -->
           <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
             <h2>
               <span id="count2">675</span>+
             </h2>
             <p>PHOTOS</p>
           </div>
+          <!-- Counter 3 -->
           <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
             <h2>
               <span id="count3">567</span>+
             </h2>
             <p>FOODS & SHOPPING</p>
           </div>
+          <!-- Counter 4 -->
           <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
             <h2>
               <span id="count4">5673</span>+
@@ -63,49 +75,67 @@
     </section>
   </section>
 
+  <!-- About Section -->
   <section id="about" class="my-5">
     <div class="container">
       <div class="row">
+        <!-- Card with image -->
         <div class="card col-md-7 ">
           <img src="/static/image/img/img-1.png" class="img-fluid py-2" alt="">
         </div>
+        <!-- Text content -->
         <div class="col-md-5 mt-md-5 mt-1">
+          <!-- Main heading -->
           <h2>We Pride Outserves On Making Real services. The Best.</h2>
+          <!-- Subheading -->
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi adipisci commodi ullam,</p>
+          <!-- Button for learning more -->
           <button class="main-btn">Learn More</button>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Service Section -->
   <section id="service" class="container">
     <div class="row">
+      <!-- Text content -->
       <div class="col-md-5 mt-md-5 pt-md-5">
+        <!-- Main heading -->
         <h2>Quality Service</h2>
+        <!-- Subheading -->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non enim, error laudantium voluptatem, facilis
           facere necessitatibus cupiditate ullam quod unde soluta molestiae optio consequuntur!</p>
+        <!-- List of features -->
         <div class="checks">
           <span><i class="fa fa-check"></i> Lorem ipsum dolor sit amet.</span><br>
           <span><i class="fa fa-check"></i> Lorem ipsum dolor amet.</span><br>
           <span><i class="fa fa-check"></i> Lorem ipsum dolor sit amet.</span>
         </div>
+        <!-- Button for learning more -->
         <button class="main-btn">Learn More</button>
       </div>
+      <!-- Image -->
       <div class="col-md-7">
         <img src="/static/image/img/img-2.png" class="img-fluid" alt="">
       </div>
     </div>
   </section>
 
+  <!-- Explore Food Section -->
   <section id="exploreFood">
     <section class="container my-5">
       <div class="text-center mx-md-5 px-md-5">
+        <!-- Main heading -->
         <h2 class="pb-0 mb-0">Explore Our Products</h2>
+        <!-- Subheading -->
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fugiat quidem facilis enim aliquam
           possimus ipsa, minus suscipit rerum molestiae recusandae. Tempore neque, provident id veniam consectetur
           soluta repudiandae rerum?</p>
       </div>
+      <!-- Cards for products -->
       <div class="row my-5 ">
+        <!-- Product 1 -->
         <div class="col-md-4">
           <div class="card ">
             <img src="/static/image/img/img-3.jpg" class="img-fluid mb-2" alt="">
@@ -113,11 +143,13 @@
             <p class="text-color">Time : 15-20 Minutes | Server 1</p>
             <h2 class="primary-color mb-3"> <i class="fa fa-usd"></i>10.50 <del class="text-muted"><i
                   class="fa fa-usd"></i>11.70</del></h2>
+            <!-- Button for ordering -->
             <div>
               <button class="main-btn">Order Now</button>
             </div>
           </div>
         </div>
+        <!-- Product 2 -->
         <div class="col-md-4">
           <div class="card ">
             <img src="/static/image/img/img-4.jpg" class="img-fluid mb-2" alt="">
@@ -125,11 +157,13 @@
             <p class="text-color">Time : 30-35 Minutes | Server 1</p>
             <h2 class="primary-color mb-3"> <i class="fa fa-usd"></i>9.50 <del class="text-muted"><i
                   class="fa fa-usd"></i>10.50</del></h2>
+            <!-- Button for ordering -->
             <div>
               <button class="main-btn">Order Now</button>
             </div>
           </div>
         </div>
+        <!-- Product 3 -->
         <div class="col-md-4">
           <div class="card ">
             <img src="/static/image/img/img-5.jpg" class="img-fluid mb-2" alt="">
@@ -137,6 +171,7 @@
             <p class="text-color">Time : 15-20 Minutes | Server 1</p>
             <h2 class="primary-color mb-3"> <i class="fa fa-usd"></i>7.30 <del class="text-muted"><i
                   class="fa fa-sd"></i>10.70</del></h2>
+            <!-- Button for ordering -->
             <div>
               <button class="main-btn">Order Now</button>
             </div>
@@ -146,19 +181,21 @@
     </section>
   </section>
 
-
+  <!-- Testimonial Section -->
   <section id="testinomial">
     <div class="container my-5 mx-md-5 px-md-5">
-
+      <!-- Carousel for testimonials -->
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <!-- Indicators -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-
         </div>
+        <!-- Slides -->
         <div class="carousel-inner">
+          <!-- Testimonial 1 -->
           <div class="carousel-item text-center active">
             <img style="width:150px;height:auto;border-radius:50%" src="/static/image/review/review-1.jpg" alt="...">
             <div class="my-4">
@@ -167,6 +204,7 @@
                 adipisicing elit. Nesciunt perferendis qui exercitationem deleniti sed obcaecati..</p>
             </div>
           </div>
+          <!-- Testimonial 2 -->
           <div class="carousel-item text-center ">
             <img style="width:150px;height:auto; border-radius:50%" src="/static/image/review/review-2.jpg" alt="...">
             <div class="my-4">
@@ -175,9 +213,8 @@
                 deleniti Lorem, ipsum dolor sit amet consectetur adipisicing elit. sed obcaecati..</p>
             </div>
           </div>
-
-
         </div>
+        <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -189,24 +226,27 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </div>
   </section>
 
+  <!-- Subscription Section -->
   <section id="subscription">
     <div class="container">
       <div class="text-center">
+        <!-- Main heading -->
         <h2 class="mb-0">Hurry Up! Subscribe Our Newsletter And Get 15% Off</h2>
+        <!-- Subheading -->
         <p class="text-color">Limmited time offer for this month. No credit card required.</p>
+        <!-- Subscription form -->
         <div class="text-center my-5">
           <form action="">
             <div class="row">
               <div class="col-md-4 offset-md-3 ">
-                          <input class="mt-1 form-control" type="text" placeholder="Enter Email Id...">
+                <input class="mt-1 form-control" type="text" placeholder="Enter Email Id...">
               </div>
-               <div class="col-md-2 mt-2 ">
-                       <button class="main-btn">Subscribe</button>
-            </div>
+              <div class="col-md-2 mt-2 ">
+                <button class="main-btn">Subscribe</button>
+              </div>
             </div>
           </form>
         </div>
@@ -214,18 +254,18 @@
     </div>
   </section>
 
+  <!-- Footer Section -->
   <section id="footer">
-
     <div class="text-center">
+      <!-- Footer links -->
       <a href="">Resiter</a>
       <a href="">Forum</a>
       <a href="">Affilate</a>
       <a href="">FAQ</a><br>
+      <!-- Copyright -->
       <small class="mt-5 text-light">@ 2024. All rights reserved.</small>
     </div>
   </section>
-
- 
 </body>
 
 </html>
